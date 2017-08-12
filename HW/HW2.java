@@ -20,7 +20,7 @@ public class HW2 {
 			PreparedStatement pstmt = conn.prepareStatement(insStm);
 			pstmt.setString(1, "2016-12-25 13:00");
 			pstmt.setInt(2, 1);
-			pstmt.setString(3, "AÆU");
+			pstmt.setString(3, "Aå»³");
 			pstmt.executeUpdate();					
 			
 			pstmt =conn.prepareStatement("select * from m_room");
